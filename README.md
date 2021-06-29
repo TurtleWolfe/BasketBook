@@ -1,5 +1,18 @@
 # Getting Started with Create React App
 
+```bash
+npx create-react-app delete --template typescript --use-npm
+rm -rf delete
+cd delete
+npm audit
+npm start
+npx -p @storybook/cli sb init
+npm run storybook
+git remote add origin https://github.com/TurtleWolfe/BasketBook.git
+git push
+git commit -m "StoryBook UI"
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
