@@ -26,6 +26,7 @@
 
 .App-link {
   color: #61dafb;
+  margin-bottom: 180px;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-image {
+  /* position: fixed; */
+  background: #333 url('../src/images/court.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
 }
