@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
-import bball from './Basketball.svg';
+// import bball from './Basketball.svg';
+import bball from './stories/assets/Basketball.svg';
 import './App.css';
 
 function App() {

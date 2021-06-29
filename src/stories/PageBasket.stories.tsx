@@ -1,7 +1,7 @@
 // import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { BasketPage } from './components/BasketPage';
+import { BasketPage } from '../components/BasketPage';
 import * as HeaderStories from './Header.stories';
 
 export default {
